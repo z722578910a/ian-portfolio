@@ -72,7 +72,7 @@
     <div class="reelsGrid">
       <article class="reelCard">
         <div class="reelFrame">
-          <button class="reelPoster" data-video="CV0XQpAcKis" aria-label="播放世界最安靜"><img src="assets/reel-cover-114.jpg?v=2" alt="世界最安靜 Facebook 封面"><span class="playIcon">▶</span></button>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1349605649970389%3Flocale%3Dzh_TW&show_text=false&autoplay=false" title="世界最安靜 Facebook Reel" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="reelMeta">
           <div class="reelViews">114萬</div>
@@ -84,7 +84,7 @@
 
       <article class="reelCard">
         <div class="reelFrame">
-          <button class="reelPoster" data-video="VmMaU0lopiE" aria-label="播放世界上最黏的膠"><img src="assets/reel-cover-48.jpg?v=2" alt="世界上最黏的膠 Facebook 封面"><span class="playIcon">▶</span></button>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1252993310133551%3Flocale%3Dzh_TW&show_text=false&autoplay=false" title="世界上最黏的膠 Facebook Reel" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="reelMeta">
           <div class="reelViews">48萬</div>
@@ -96,7 +96,7 @@
 
       <article class="reelCard">
         <div class="reelFrame">
-          <button class="reelPoster" data-video="295z3WWGKys" aria-label="播放膝蓋卡卡"><img src="assets/reel-cover-13.jpg?v=2" alt="膝蓋卡卡 Facebook 封面"><span class="playIcon">▶</span></button>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F925053530293067%3Flocale%3Dzh_TW&show_text=false&autoplay=false" title="膝蓋卡卡 Facebook Reel" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="reelMeta">
           <div class="reelViews">13萬</div>
@@ -108,7 +108,7 @@
 
       <article class="reelCard">
         <div class="reelFrame">
-          <button class="reelPoster" data-video="pChPix58hOc" aria-label="播放日本曳屋"><img src="assets/reel-cover-11.jpg?v=2" alt="日本曳屋 Facebook 封面"><span class="playIcon">▶</span></button>
+          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1453840539435827%3Flocale%3Dzh_TW&show_text=false&autoplay=false" title="日本曳屋 Facebook Reel" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         </div>
         <div class="reelMeta">
           <div class="reelViews">11萬</div>
@@ -134,7 +134,6 @@
 <footer id="contact" class="footer"><div class="wrap footerGrid"><div><div class="kicker">CONTACT / IAN CHEN</div><h2>內容不是最後一步，<br>它應該替商業合作創造下一步。</h2><p>目前定位：節目招商、冠名贊助、企業廣告投放、內容商業合作。</p></div><div class="contact"><a href="tel:0976762963">0976-762-963</a><a href="mailto:z722578910a@gmail.com">z722578910a@gmail.com</a><a href="https://drive.google.com/file/d/19Ohvy0JkSKX-fXEwbMIRGETyvW5FYWUr/view?usp=sharing" target="_blank" rel="noopener">Resume / Contact ↗</a></div></div></footer>
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="作品圖片預覽"><button aria-label="關閉">×</button><img alt="作品放大預覽"></div>
 <script>
-document.querySelectorAll('.reelPoster').forEach(btn=>btn.addEventListener('click',()=>{btn.parentElement.innerHTML=`<iframe src="https://www.youtube.com/embed/${btn.dataset.video}?autoplay=1&rel=0" title="YouTube video player" allow="autoplay; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>`}));
 const showcase=document.querySelector('#designproVideo');document.querySelectorAll('.videoTab').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.videoTab').forEach(x=>x.classList.remove('active'));btn.classList.add('active');showcase.src=`https://www.youtube.com/embed/${btn.dataset.video}?autoplay=1&rel=0`}));
 const lightbox=document.querySelector('#lightbox'),lightboxImg=lightbox.querySelector('img');document.querySelectorAll('.zoomable').forEach(img=>img.addEventListener('click',()=>{lightboxImg.src=img.src;lightboxImg.alt=img.alt;lightbox.classList.add('open')}));const closeLightbox=()=>lightbox.classList.remove('open');lightbox.querySelector('button').addEventListener('click',closeLightbox);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
 </script>

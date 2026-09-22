@@ -18,10 +18,24 @@
 .brand-muji{color:#7F0019}.brand-redbull{color:#DB0A40}.brand-sakura{color:#FFB7C5}.brand-jiufeng{color:#F2F2F2}.brand-sep{color:#737373}
 @media(max-width:900px){.heroTop,.sectionHead,.case,.case.reverse,.footerGrid{grid-template-columns:1fr}.heroSide{align-items:flex-start}.meta{text-align:left}.avatar{width:170px}.metricGrid{grid-template-columns:repeat(2,1fr)}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.caseCopy,.case.reverse .caseCopy{padding:24px 0 0}.projects{grid-template-columns:1fr 1fr}.menu{display:none}}
 @media(max-width:600px){.wrap{width:min(100% - 28px,1220px)}.hero{padding-top:54px}.hero h1{font-size:56px}.lead{font-size:16px}.metricGrid,.results,.projects{grid-template-columns:1fr}.metric{border-right:0!important;border-bottom:1px solid var(--line)}.result:nth-child(odd){border-right:0}.caseMedia,.caseMedia.duo{min-height:280px}.caseMedia.duo{grid-template-columns:1fr 1fr}.section{padding:64px 0}.sectionHead h2{font-size:36px}.footer h2{font-size:38px}}
+
+.reelsGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.reelCard{background:#0c0c0c;border:1px solid #2e2e2e;padding:14px}
+.reelFrame{position:relative;width:100%;aspect-ratio:9/16;background:#000;overflow:hidden;border:1px solid #1e1e1e}
+.reelFrame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.reelMeta{padding:15px 4px 2px}
+.reelViews{font-size:30px;font-weight:900;letter-spacing:-.04em;color:#fff}
+.reelTitle{font-size:16px;font-weight:800;margin-top:3px}
+.reelDesc{font-size:12px;color:#969696;margin-top:7px;min-height:58px}
+.reelLink{display:inline-block;margin-top:12px;padding-top:9px;border-top:1px solid #2c2c2c;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#d7d7d7}
+.reelLink:hover{color:#fff}
+@media(max-width:1050px){.reelsGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.reelsGrid{grid-template-columns:1fr}.reelCard{padding:10px}}
+
 </style>
 </head>
 <body>
-<nav class="nav"><div class="wrap navin"><div class="brand">IAN CHEN / PORTFOLIO</div><div class="menu"><a href="#results">Results</a><a href="#cases">Case Studies</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+<nav class="nav"><div class="wrap navin"><div class="brand">IAN CHEN / PORTFOLIO</div><div class="menu"><a href="#results">Results</a><a href="#reels">Reels</a><a href="#cases">Case Studies</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
 <header class="hero"><div class="wrap heroTop"><div><div class="kicker">Business Development × Sponsorship × Content Planning</div><h1><span>把難賣的東西，</span><span class="outline">找到市場願意看的切角。</span></h1><p class="lead">我結合陌生開發、合作洽談與內容企劃，從產品理解、商業提案到影音執行，把抽象需求轉化成能被理解、被觀看、也更容易被買單的方案。</p><div class="actions"><a class="btn dark" href="#cases">Selected Work ↓</a><a class="btn" href="mailto:z722578910a@gmail.com?subject=Resume%20Request">Resume / Contact ↗</a></div></div><div class="heroSide"><img class="avatar" src="assets/headshot.svg" alt="Ian Chen"><div class="meta">陳宇成 / IAN CHEN<br>Taichung, Taiwan<br>Content × Business</div></div></div></header>
 <section class="metrics"><div class="wrap metricGrid"><div class="metric"><strong>300+</strong><span>商業與品牌影音內容</span></div><div class="metric"><strong>114萬</strong><span>單支 Facebook 影片觀看</span></div><div class="metric"><strong>67件</strong><span>陌生開發合作成交</span></div><div class="metric"><strong>157件</strong><span>平台廠商合作案</span></div></div></section>
 <section id="results" class="section"><div class="wrap"><div class="sectionHead"><div class="sectionNo">01 / SELECTED RESULTS</div><div><h2>內容不是做完就結束，<br>而是要產生市場反應。</h2><p>把冷門產品、技術型議題與品牌訊息重新包裝成大眾願意停下來看的內容。</p></div></div><div class="results">
@@ -30,12 +44,79 @@
 <a class="result" href="https://www.facebook.com/reel/925053530293067?locale=zh_TW" target="_blank"><div class="big">13萬</div><span class="link">↗</span><h3>POV 幽默內容</h3><p>用誤導與反轉，把品牌訊息自然嵌入娛樂內容。</p></a>
 <a class="result" href="https://www.facebook.com/reel/1453840539435827?locale=zh_TW" target="_blank"><div class="big">11萬</div><span class="link">↗</span><h3>日本曳屋 × 製造技法</h3><p>以特殊建築技法連結九灃核心生產能力，讓技術被看見。</p></a>
 </div></div></section>
-<section id="cases" class="section soft"><div class="wrap"><div class="sectionHead"><div class="sectionNo">02 / CASE STUDIES</div><div><h2>從需求、切角，<br>到可以被說服的方案。</h2><p>這些案例呈現的不只是成品，而是我如何把抽象需求整理成內容、提案與合作架構。</p></div></div>
+
+<section id="reels" class="section">
+  <div class="wrap">
+    <div class="sectionHead">
+      <div class="sectionNo">02 / SHORT-FORM RESULTS</div>
+      <div>
+        <h2>9:16 短影音，<br>用切角把技術變成流量。</h2>
+        <p>四支代表作品皆為直式 Reels。網站內可直接播放，並保留原始 Facebook 貼文供查看觀看數與互動。</p>
+      </div>
+    </div>
+
+    <div class="reelsGrid">
+      <article class="reelCard">
+        <div class="reelFrame">
+          <iframe loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen
+            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1349605649970389%3Flocale%3Dzh_TW&show_text=false&width=360"></iframe>
+        </div>
+        <div class="reelMeta">
+          <div class="reelViews">114萬</div>
+          <div class="reelTitle">世界最安靜｜九灃吸音板</div>
+          <div class="reelDesc">在無法外拍、無人出鏡的限制下，以素材重製＋冷知識切角，讓原本乏人問津的產品獲得大量詢價。</div>
+          <a class="reelLink" href="https://www.facebook.com/reel/1349605649970389?locale=zh_TW" target="_blank">View Original Post ↗</a>
+        </div>
+      </article>
+
+      <article class="reelCard">
+        <div class="reelFrame">
+          <iframe loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen
+            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1252993310133551%3Flocale%3Dzh_TW&show_text=false&width=360"></iframe>
+        </div>
+        <div class="reelMeta">
+          <div class="reelViews">48萬</div>
+          <div class="reelTitle">世界上最黏的膠｜PUR 封邊</div>
+          <div class="reelDesc">把技術型內容換成大眾會產生好奇的問題，先抓住注意力，再導回 PUR 封邊技術。</div>
+          <a class="reelLink" href="https://www.facebook.com/reel/1252993310133551?locale=zh_TW" target="_blank">View Original Post ↗</a>
+        </div>
+      </article>
+
+      <article class="reelCard">
+        <div class="reelFrame">
+          <iframe loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen
+            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F925053530293067%3Flocale%3Dzh_TW&show_text=false&width=360"></iframe>
+        </div>
+        <div class="reelMeta">
+          <div class="reelViews">13萬</div>
+          <div class="reelTitle">膝蓋卡卡｜POV 反轉內容</div>
+          <div class="reelDesc">利用聲音誤導觀眾以為是櫃體問題，最後揭露其實是膝蓋，再以系統櫃長青作品牌記憶點。</div>
+          <a class="reelLink" href="https://www.facebook.com/reel/925053530293067?locale=zh_TW" target="_blank">View Original Post ↗</a>
+        </div>
+      </article>
+
+      <article class="reelCard">
+        <div class="reelFrame">
+          <iframe loading="lazy" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen
+            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1453840539435827%3Flocale%3Dzh_TW&show_text=false&width=360"></iframe>
+        </div>
+        <div class="reelMeta">
+          <div class="reelViews">11萬</div>
+          <div class="reelTitle">日本曳屋｜特殊工法 × 製造技術</div>
+          <div class="reelDesc">從「霍爾移動城堡」般的整棟建築移動切入，最後連回九灃的核心生產與製造概念。</div>
+          <a class="reelLink" href="https://www.facebook.com/reel/1453840539435827?locale=zh_TW" target="_blank">View Original Post ↗</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="cases" class="section soft"><div class="wrap"><div class="sectionHead"><div class="sectionNo">03 / CASE STUDIES</div><div><h2>從需求、切角，<br>到可以被說服的方案。</h2><p>這些案例呈現的不只是成品，而是我如何把抽象需求整理成內容、提案與合作架構。</p></div></div>
 <article class="case"><div class="caseCopy"><div class="label">CASE 01 / PRODUCT GROWTH</div><h3>DesignPro｜從 0 建立對外推廣內容</h3><p>在缺乏既有推廣資源、沒有專職對外業務的情況下，獨立建立商業影片與廣告素材，讓產品有一套可以被市場理解的溝通方式。</p><div class="stats"><div><b>0 → 3,000</b><span>社群粉絲</span></div><div><b>0 → 50</b><span>付費帳號</span></div><div><b>NT$50K</b><span>單帳號年費</span></div></div><ul><li>產品功能拆解與內容切角</li><li>商業影片、廣告素材與產品展示</li><li>把抽象功能轉化為易理解的使用情境</li></ul></div><div class="caseMedia"><img src="assets/designpro.svg" alt="DesignPro"></div></article>
 <article class="case reverse"><div class="caseMedia duo"><img src="assets/muji_cover.svg" alt="MUJI proposal"><img src="assets/muji_layout.svg" alt="MUJI layout"></div><div class="caseCopy"><div class="label"><span class="brand-muji">CASE 02 / PROPOSAL</span></div><h3><span class="brand-muji">MUJI</span> <span class="brand-sep">×</span> <span class="brand-jiufeng">JIU FENG</span>｜Nesting Office</h3><p>以「人的行為生成空間」為核心，將櫃體、桌面、吸音、展示與植物基複合地板整理成可選擇、可移動、可重組的辦公系統。</p><ul><li>概念發想與提案架構</li><li>Focus / Collaborate / Lounge / Welcome 四大情境</li><li>把製造能力轉成可溝通、可選配的合作方案</li></ul></div></article>
 <article class="case"><div class="caseCopy"><div class="label"><span class="brand-redbull">CASE 03</span> / BRAND COLLABORATION</div><h3><span class="brand-redbull">Red Bull</span> <span class="brand-sep">×</span> <span class="brand-sakura">Sakura</span>｜跨品牌拍攝協作</h3><p>協助九灃與 Red Bull／製作團隊進行拍攝合作規劃，處理場地、拍攝需求、品牌露出、素材授權與現場協調等多方議題。</p><ul><li>跨單位會議與需求整理</li><li>拍攝場地與安全流程協調</li><li>品牌曝光、素材使用與合作細節確認</li></ul></div><div class="caseMedia duo"><img src="assets/redbull_event.svg" alt="Red Bull"><img src="assets/redbull_fridge.svg" alt="Red Bull"></div></article>
 </div></section>
-<section id="projects" class="section"><div class="wrap"><div class="sectionHead"><div class="sectionNo">03 / PROJECTS & COLLABORATION</div><div><h2>影音之外，<br>我也做提案、合作與執行。</h2><p>把專案推進到可以落地，是我工作裡很重要的一部分。</p></div></div><div class="projects">
+<section id="projects" class="section"><div class="wrap"><div class="sectionHead"><div class="sectionNo">04 / PROJECTS & COLLABORATION</div><div><h2>影音之外，<br>我也做提案、合作與執行。</h2><p>把專案推進到可以落地，是我工作裡很重要的一部分。</p></div></div><div class="projects">
 <a class="project" href="https://www.youtube.com/watch?v=2HNq3iqLsHw" target="_blank"><div class="projectText"><div class="projectNo">P / 01</div><h4>KID 林柏昇｜新房互惠合作 ↗</h4><p>品牌互惠與內容合作，從合作需求到內容落地。</p><div class="projectTag">Brand Collaboration</div></div></a>
 <div class="project"><img src="assets/gold_award.svg" alt="金手獎"><div class="projectText"><div class="projectNo">P / 02</div><h4>金手獎｜電影預告式講座宣傳</h4><p>把「震撼、讓人記住講師」轉化成懸疑電影預告的創意概念。</p><div class="projectTag">Creative Concept</div></div></div>
 <div class="project"><img src="assets/goodspace_booth.svg" alt="好感空間展"><div class="projectText"><div class="projectNo">P / 03</div><h4>台南好感空間展｜展覽企劃與執行</h4><p>參展規劃、主辦溝通、攤位與工班協調、行政與現場執行。</p><div class="projectTag">Event Planning</div></div></div>
